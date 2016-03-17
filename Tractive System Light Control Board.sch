@@ -14494,6 +14494,19 @@ Connecter</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,25.4,104.14,J3,1,,,,"/>
+<approved hash="101,1,25.4,152.4,J4,2,,,,"/>
+<approved hash="114,1,455.93,30.3318,U36,B,IN,,,"/>
+<approved hash="114,1,455.93,30.3318,U36,B,D,,,"/>
+<approved hash="114,1,193.04,112.543,U38,B,+,,,"/>
+<approved hash="114,1,193.04,112.543,U38,B,-,,,"/>
+<approved hash="114,1,193.04,112.543,U38,A,+,,,"/>
+<approved hash="114,1,193.04,112.543,U38,A,-,,,"/>
+<approved hash="114,1,193.04,112.543,U38,D,+,,,"/>
+<approved hash="114,1,193.04,112.543,U38,D,-,,,"/>
+<approved hash="104,1,363.22,127,U3G$2,VCC,+5V,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
