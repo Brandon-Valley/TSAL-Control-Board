@@ -2568,7 +2568,7 @@
 <text x="59.055" y="0.635" size="1.27" layer="21">TSAL Control Board V1.0</text>
 <text x="59.055" y="3.175" size="1.27" layer="21">Formula Electric Racing</text>
 <text x="17.78" y="0.635" size="1.016" layer="21">Tractive System</text>
-<text x="59.69" y="48.895" size="1.27" layer="21">GLVS</text>
+<text x="59.055" y="48.895" size="1.27" layer="21">GLVS</text>
 <wire x1="47.625" y1="13.335" x2="43.18" y2="13.335" width="0.254" layer="21"/>
 <wire x1="43.18" y1="13.335" x2="43.18" y2="8.89" width="0.254" layer="21"/>
 <wire x1="43.18" y1="8.89" x2="43.18" y2="6.985" width="0.254" layer="21"/>
