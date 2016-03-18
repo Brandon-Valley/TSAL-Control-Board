@@ -13335,7 +13335,9 @@ Source: AVX .. aphvc.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="FormE" deviceset="ISO7221" device=""/>
+<part name="U1" library="FormE" deviceset="ISO7221" device="">
+<attribute name="PARTNO" value="ISO7221CDR"/>
+</part>
 <part name="J2" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device=""/>
 <part name="R50" library="rcl" deviceset="R-US_" device="R0805" value="DNP"/>
 <part name="U36" library="FormE" deviceset="LTC1155" device="">
@@ -13417,14 +13419,21 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R23" library="adafruit" deviceset="R-US_" device="R0805" value="10K">
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
-<part name="U12" library="FormE" deviceset="SN6501" device="" value="SN6501DBVR"/>
-<part name="T1" library="FormE" deviceset="WURTH-750313734" device="" value="750313734"/>
-<part name="D33" library="FormE" deviceset="MBR0520LT3G" device="" value="MBR0520LT3G"/>
-<part name="D34" library="FormE" deviceset="MBR0520LT3G" device="" value="MBR0520LT3G"/>
-<part name="D35" library="FormE" deviceset="MM3Z5V1B" device="" value="MM3Z5V1B"/>
-<part name="C90" library="rcl" deviceset="C-US" device="C1206" value="10uF"/>
-<part name="C91" library="rcl" deviceset="C-US" device="C1206" value="10uF"/>
-<part name="R72" library="rcl" deviceset="R-US_" device="R0805" value="47R"/>
+<part name="U12" library="FormE" deviceset="SN6501" device="" value="SN6501DBVR">
+<attribute name="PARTNO" value="SN6501DBVR"/>
+</part>
+<part name="T1" library="FormE" deviceset="WURTH-750313734" device="" value="750313734">
+<attribute name="PARTNO" value="750313734"/>
+</part>
+<part name="D33" library="FormE" deviceset="MBR0520LT3G" device="" value="MBR0520LT3G">
+<attribute name="PARTNO" value="MBR0520LT3G"/>
+</part>
+<part name="D34" library="FormE" deviceset="MBR0520LT3G" device="" value="MBR0520LT3G">
+<attribute name="PARTNO" value="MBR0520LT3G"/>
+</part>
+<part name="D35" library="FormE" deviceset="MM3Z5V1B" device="" value="MM3Z5V1B">
+<attribute name="PARTNO" value="MM3Z3V3T1G"/>
+</part>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND1" device=""/>
@@ -13435,8 +13444,9 @@ Source: AVX .. aphvc.pdf</description>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND1" device=""/>
-<part name="TP2" library="testpad" deviceset="PTR1" device="TP20R"/>
-<part name="H1" library="FormE" deviceset="MOLEX_CLIKMATE-8-VERTICAL-5025841170" device="" value=""/>
+<part name="H1" library="FormE" deviceset="MOLEX_CLIKMATE-8-VERTICAL-5025841170" device="" value="">
+<attribute name="PARTNO" value="5025841170"/>
+</part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
@@ -13486,10 +13496,16 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$2" library="FormE" deviceset="AAVID-581X" device="" value="581002B02500G">
 <attribute name="PARTNO" value="581002B02500G"/>
 </part>
-<part name="R1" library="FormE" deviceset="RTO020F10001JTE3" device="" value=""/>
-<part name="R6" library="FormE" deviceset="RTO020F10001JTE3" device="" value=""/>
+<part name="R1" library="FormE" deviceset="RTO020F10001JTE3" device="" value="">
+<attribute name="PARTNO" value="RTO020F10001JTE3"/>
+</part>
+<part name="R6" library="FormE" deviceset="RTO020F10001JTE3" device="" value="">
+<attribute name="PARTNO" value="RTO020F10001JTE3"/>
+</part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="T3" library="FormE" deviceset="LMC555" device="DGK" value="LMC555"/>
+<part name="T3" library="FormE" deviceset="LMC555" device="DGK" value="LMC555">
+<attribute name="PARTNO" value="LMC555CM/NOPB"/>
+</part>
 <part name="R8" library="adafruit" deviceset="R-US_" device="R0805" value="20k">
 <attribute name="PARTNO" value="ERJ-6ENF2001V"/>
 </part>
@@ -13508,7 +13524,9 @@ Source: AVX .. aphvc.pdf</description>
 </part>
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="U3" library="FormE" deviceset="LL_NAND:SN74LVC1G00" device="DRL" value="SN74LVC1G00DRL"/>
+<part name="U3" library="FormE" deviceset="LL_NAND:SN74LVC1G00" device="DRL" value="SN74LVC1G00DRL">
+<attribute name="PARTNO" value="SN74LVC1G00DRLR"/>
+</part>
 <part name="SUPPLY16" library="supply2" deviceset="GND1" device=""/>
 <part name="C11" library="rcl" deviceset="C-US" device="C0805" value="0.1uF">
 <attribute name="MF" value=""/>
@@ -13518,8 +13536,12 @@ Source: AVX .. aphvc.pdf</description>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="GND1" device=""/>
-<part name="U4" library="FormE" deviceset="LM139" device=""/>
-<part name="U5" library="FormE" deviceset="MAX616X" device="" value="MAX6168AESA+"/>
+<part name="U4" library="FormE" deviceset="LM139" device="">
+<attribute name="PARTNO" value="LM139DR"/>
+</part>
+<part name="U5" library="FormE" deviceset="MAX616X" device="" value="MAX6168AESA+">
+<attribute name="PARTNO" value="MAX6168AESA+"/>
+</part>
 <part name="SUPPLY8" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="+5V/1" device=""/>
 <part name="C10" library="rcl" deviceset="C-US" device="C0805" value="0.1uF">
@@ -13536,6 +13558,22 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="SUPPLY12" library="supply2" deviceset="GND1" device=""/>
+<part name="C12" library="rcl" deviceset="C-US" device="C0805" value="10uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="C1005X7R1E104K050BB"/>
+<attribute name="OC_NEWARK" value="04X3227"/>
+<attribute name="PARTNO" value="GRM21BR71E104KA01L"/>
+</part>
+<part name="C13" library="rcl" deviceset="C-US" device="C0805" value="10uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="C1005X7R1E104K050BB"/>
+<attribute name="OC_NEWARK" value="04X3227"/>
+<attribute name="PARTNO" value="GRM21BR71E104KA01L"/>
+</part>
+<part name="TP1" library="testpad" deviceset="PTR1" device="TP20R"/>
+<part name="R32" library="rcl" deviceset="R-US_" device="R0805" value="47">
+<attribute name="PARTNO" value="ERJ-6ENF1000V"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -13643,7 +13681,9 @@ Reference</text>
 <wire x1="142.24" y1="22.86" x2="142.24" y2="111.76" width="0.1524" layer="95"/>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="337.82" y="116.84"/>
+<instance part="U1" gate="G$1" x="337.82" y="116.84">
+<attribute name="PARTNO" x="337.82" y="116.84" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J2" gate="G$1" x="99.06" y="86.36" rot="R270"/>
 <instance part="R50" gate="G$1" x="462.28" y="38.1" rot="R90"/>
 <instance part="U36" gate="A" x="487.68" y="27.94"/>
@@ -13724,14 +13764,21 @@ Reference</text>
 <instance part="R23" gate="G$1" x="109.22" y="106.68" rot="R270">
 <attribute name="PARTNO" x="109.22" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U12" gate="G$1" x="375.92" y="33.02" rot="MR0"/>
-<instance part="T1" gate="G$1" x="337.82" y="33.02" rot="MR0"/>
-<instance part="D33" gate="G$1" x="322.58" y="38.1" rot="MR0"/>
-<instance part="D34" gate="G$1" x="322.58" y="27.94" rot="MR0"/>
-<instance part="D35" gate="G$1" x="256.54" y="30.48" rot="MR0"/>
-<instance part="C90" gate="G$1" x="294.64" y="33.02" rot="MR0"/>
-<instance part="C91" gate="G$1" x="271.78" y="33.02" rot="MR0"/>
-<instance part="R72" gate="G$1" x="281.94" y="38.1" rot="MR0"/>
+<instance part="U12" gate="G$1" x="375.92" y="33.02" rot="MR0">
+<attribute name="PARTNO" x="375.92" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="T1" gate="G$1" x="337.82" y="33.02" rot="MR0">
+<attribute name="PARTNO" x="337.82" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D33" gate="G$1" x="322.58" y="38.1" rot="MR0">
+<attribute name="PARTNO" x="322.58" y="38.1" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D34" gate="G$1" x="322.58" y="27.94" rot="MR0">
+<attribute name="PARTNO" x="322.58" y="27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D35" gate="G$1" x="256.54" y="30.48" rot="MR0">
+<attribute name="PARTNO" x="256.54" y="30.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND40" gate="1" x="391.16" y="22.86" rot="MR0"/>
 <instance part="P+2" gate="1" x="350.52" y="45.72" rot="MR0"/>
 <instance part="SUPPLY5" gate="G$1" x="256.54" y="17.78" rot="MR0"/>
@@ -13742,8 +13789,9 @@ Reference</text>
 <instance part="P+8" gate="1" x="355.6" y="147.32" rot="MR0"/>
 <instance part="GND9" gate="1" x="355.6" y="104.14"/>
 <instance part="SUPPLY2" gate="G$1" x="320.04" y="104.14"/>
-<instance part="TP2" gate="G$1" x="523.24" y="17.78" rot="R90"/>
-<instance part="H1" gate="G$1" x="563.88" y="17.78" rot="R180"/>
+<instance part="H1" gate="G$1" x="563.88" y="17.78" rot="R180">
+<attribute name="PARTNO" x="563.88" y="17.78" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND8" gate="1" x="599.44" y="7.62"/>
 <instance part="GND13" gate="1" x="490.22" y="5.08"/>
 <instance part="P+1" gate="1" x="462.28" y="53.34"/>
@@ -13797,10 +13845,16 @@ Reference</text>
 <instance part="U$2" gate="G$1" x="12.7" y="114.3">
 <attribute name="PARTNO" x="12.7" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R1" gate="G$1" x="22.86" y="139.7" rot="R90"/>
-<instance part="R6" gate="G$1" x="22.86" y="116.84" rot="R90"/>
+<instance part="R1" gate="G$1" x="22.86" y="139.7" rot="R90">
+<attribute name="PARTNO" x="22.86" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R6" gate="G$1" x="22.86" y="116.84" rot="R90">
+<attribute name="PARTNO" x="22.86" y="116.84" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND19" gate="1" x="495.3" y="38.1"/>
-<instance part="T3" gate="G$1" x="464.82" y="119.38"/>
+<instance part="T3" gate="G$1" x="464.82" y="119.38">
+<attribute name="PARTNO" x="464.82" y="119.38" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R8" gate="G$1" x="490.22" y="114.3" rot="R90">
 <attribute name="PARTNO" x="490.22" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
@@ -13819,7 +13873,9 @@ Reference</text>
 </instance>
 <instance part="P+17" gate="1" x="396.24" y="137.16"/>
 <instance part="GND12" gate="1" x="396.24" y="91.44"/>
-<instance part="U3" gate="A" x="396.24" y="111.76"/>
+<instance part="U3" gate="A" x="396.24" y="111.76">
+<attribute name="PARTNO" x="396.24" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U3" gate="G$2" x="396.24" y="111.76"/>
 <instance part="SUPPLY16" gate="G$1" x="233.68" y="121.92"/>
 <instance part="C11" gate="G$1" x="403.86" y="127" smashed="yes">
@@ -13831,9 +13887,13 @@ Reference</text>
 </instance>
 <instance part="GND14" gate="1" x="403.86" y="119.38"/>
 <instance part="SUPPLY10" gate="G$1" x="314.96" y="124.46"/>
-<instance part="U4" gate="A" x="223.52" y="114.3"/>
+<instance part="U4" gate="A" x="223.52" y="114.3">
+<attribute name="PARTNO" x="223.52" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U4" gate="P" x="226.06" y="114.3"/>
-<instance part="U5" gate="G$1" x="154.94" y="60.96"/>
+<instance part="U5" gate="G$1" x="154.94" y="60.96">
+<attribute name="PARTNO" x="154.94" y="60.96" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY8" gate="G$1" x="154.94" y="27.94"/>
 <instance part="SUPPLY9" gate="G$1" x="154.94" y="76.2"/>
 <instance part="C10" gate="G$1" x="170.18" y="55.88" smashed="yes">
@@ -13851,6 +13911,24 @@ Reference</text>
 <attribute name="PARTNO" x="182.88" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="182.88" y="27.94"/>
+<instance part="C12" gate="G$1" x="294.64" y="33.02" smashed="yes">
+<attribute name="NAME" x="295.656" y="33.655" size="1.778" layer="95"/>
+<attribute name="PARTNO" x="294.64" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" x="294.64" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="294.64" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="294.64" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C13" gate="G$1" x="271.78" y="33.02" smashed="yes">
+<attribute name="NAME" x="272.796" y="33.655" size="1.778" layer="95"/>
+<attribute name="PARTNO" x="271.78" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" x="271.78" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="271.78" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="271.78" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP1" gate="G$1" x="523.24" y="17.78" rot="R90"/>
+<instance part="R32" gate="G$1" x="281.94" y="38.1" rot="R180">
+<attribute name="PARTNO" x="281.94" y="38.1" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13865,15 +13943,15 @@ Reference</text>
 <wire x1="294.64" y1="22.86" x2="271.78" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="22.86" x2="256.54" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="22.86" x2="256.54" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="C90" gate="G$1" pin="2"/>
 <wire x1="294.64" y1="27.94" x2="294.64" y2="22.86" width="0.1524" layer="91"/>
 <junction x="294.64" y="22.86"/>
-<pinref part="C91" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="27.94" x2="271.78" y2="22.86" width="0.1524" layer="91"/>
 <junction x="271.78" y="22.86"/>
 <pinref part="SUPPLY5" gate="G$1" pin="GND1"/>
 <wire x1="256.54" y1="22.86" x2="256.54" y2="20.32" width="0.1524" layer="91"/>
 <junction x="256.54" y="22.86"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND1"/>
@@ -13929,8 +14007,6 @@ Reference</text>
 </net>
 <net name="+5V/1" class="0">
 <segment>
-<pinref part="R72" gate="G$1" pin="2"/>
-<pinref part="C91" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="38.1" x2="271.78" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="38.1" x2="271.78" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="D35" gate="G$1" pin="CATHODE"/>
@@ -13940,6 +14016,8 @@ Reference</text>
 <pinref part="SUPPLY6" gate="G$1" pin="+5V/1"/>
 <wire x1="256.54" y1="40.64" x2="256.54" y2="38.1" width="0.1524" layer="91"/>
 <junction x="256.54" y="38.1"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="R32" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC1"/>
@@ -14143,7 +14221,6 @@ Reference</text>
 </net>
 <net name="TSAL_CONTROL" class="0">
 <segment>
-<pinref part="TP2" gate="G$1" pin="TP"/>
 <pinref part="U37" gate="A" pin="S"/>
 <wire x1="518.16" y1="20.32" x2="518.16" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="518.16" y1="17.78" x2="520.7" y2="17.78" width="0.1524" layer="91"/>
@@ -14151,14 +14228,7 @@ Reference</text>
 <wire x1="518.16" y1="17.78" x2="518.16" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="518.16" y1="10.16" x2="520.7" y2="10.16" width="0.1524" layer="91"/>
 <label x="520.7" y="10.16" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="612.14" y1="30.48" x2="622.3" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="612.14" y1="30.48" x2="607.06" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="607.06" y1="30.48" x2="607.06" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="607.06" y1="33.02" x2="612.14" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="612.14" y1="33.02" x2="612.14" y2="30.48" width="0.1524" layer="91"/>
-<junction x="612.14" y="30.48"/>
+<pinref part="TP1" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="H1" gate="G$1" pin="4"/>
@@ -14372,7 +14442,6 @@ Reference</text>
 <net name="N$43" class="0">
 <segment>
 <pinref part="D33" gate="G$1" pin="K"/>
-<pinref part="C90" gate="G$1" pin="1"/>
 <wire x1="320.04" y1="38.1" x2="304.8" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="38.1" x2="294.64" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="38.1" x2="294.64" y2="35.56" width="0.1524" layer="91"/>
@@ -14380,9 +14449,10 @@ Reference</text>
 <wire x1="320.04" y1="27.94" x2="304.8" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="27.94" x2="304.8" y2="38.1" width="0.1524" layer="91"/>
 <junction x="304.8" y="38.1"/>
-<pinref part="R72" gate="G$1" pin="1"/>
 <wire x1="294.64" y1="38.1" x2="287.02" y2="38.1" width="0.1524" layer="91"/>
 <junction x="294.64" y="38.1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="R32" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -14519,16 +14589,6 @@ Reference</text>
 <pinref part="J3" gate="G$1" pin="2"/>
 <pinref part="R6" gate="G$1" pin="P$1"/>
 <wire x1="22.86" y1="104.14" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<wire x1="609.6" y1="25.4" x2="612.14" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="612.14" y1="25.4" x2="614.68" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="614.68" y1="25.4" x2="614.68" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="614.68" y1="22.86" x2="612.14" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="612.14" y1="22.86" x2="612.14" y2="25.4" width="0.1524" layer="91"/>
-<junction x="612.14" y="25.4"/>
 </segment>
 </net>
 <net name="0.9V_REF" class="0">
