@@ -13507,7 +13507,7 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="PARTNO" value="LMC555CM/NOPB"/>
 </part>
 <part name="R8" library="adafruit" deviceset="R-US_" device="R0805" value="20k">
-<attribute name="PARTNO" value="ERJ-6ENF2001V"/>
+<attribute name="PARTNO" value="ERJ-3EKF2002V"/>
 </part>
 <part name="R20" library="adafruit" deviceset="R-US_" device="R0805" value="10.5k">
 <attribute name="PARTNO" value="ERJ-6ENF1051V"/>
@@ -13516,7 +13516,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="C16" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="08053C104KAT2A"/>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="C17" library="adafruit" deviceset="C-US" device="C0805" value="10uF">
@@ -13562,18 +13562,19 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="C1005X7R1E104K050BB"/>
 <attribute name="OC_NEWARK" value="04X3227"/>
-<attribute name="PARTNO" value="GRM21BR71E104KA01L"/>
+<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="C13" library="rcl" deviceset="C-US" device="C0805" value="10uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="C1005X7R1E104K050BB"/>
 <attribute name="OC_NEWARK" value="04X3227"/>
-<attribute name="PARTNO" value="GRM21BR71E104KA01L"/>
+<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="TP1" library="testpad" deviceset="PTR1" device="TP20R"/>
 <part name="R32" library="rcl" deviceset="R-US_" device="R0805" value="47">
 <attribute name="PARTNO" value="ERJ-6ENF1000V"/>
 </part>
+<part name="SUPPLY13" library="supply2" deviceset="GND1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13929,6 +13930,7 @@ Reference</text>
 <instance part="R32" gate="G$1" x="281.94" y="38.1" rot="R180">
 <attribute name="PARTNO" x="281.94" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="SUPPLY13" gate="G$1" x="109.22" y="93.98"/>
 </instances>
 <busses>
 </busses>
@@ -13987,6 +13989,23 @@ Reference</text>
 <pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="SUPPLY12" gate="G$1" pin="GND1"/>
 <wire x1="182.88" y1="30.48" x2="182.88" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="99.06" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="99.06" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="99.06" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="124.46" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
+<label x="73.66" y="127" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="93.98" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
+<junction x="101.6" y="99.06"/>
+<pinref part="R6" gate="G$1" pin="P$2"/>
+<wire x1="22.86" y1="121.92" x2="22.86" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="SUPPLY13" gate="G$1" pin="GND1"/>
+<wire x1="109.22" y1="96.52" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
+<junction x="109.22" y="99.06"/>
 </segment>
 </net>
 <net name="HV_INDICATOR_SIGNAL_HV" class="0">
@@ -14553,22 +14572,6 @@ Reference</text>
 <wire x1="22.86" y1="144.78" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="B-" class="0">
-<segment>
-<pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="99.06" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="99.06" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="99.06" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="124.46" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
-<label x="73.66" y="127" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="93.98" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
-<junction x="101.6" y="99.06"/>
-<pinref part="R6" gate="G$1" pin="P$2"/>
-<wire x1="22.86" y1="121.92" x2="22.86" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="B+" class="0">
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
@@ -14621,17 +14624,21 @@ Reference</text>
 </sheet>
 </sheets>
 <errors>
+<approved hash="101,1,99.06,93.98,J2,2,,,,"/>
+<approved hash="101,1,96.52,175.26,J1,1,,,,"/>
 <approved hash="101,1,25.4,104.14,J3,1,,,,"/>
 <approved hash="101,1,25.4,152.4,J4,2,,,,"/>
-<approved hash="114,1,455.93,30.3318,U36,B,IN,,,"/>
-<approved hash="114,1,455.93,30.3318,U36,B,D,,,"/>
-<approved hash="114,1,193.04,112.543,U38,B,+,,,"/>
-<approved hash="114,1,193.04,112.543,U38,B,-,,,"/>
-<approved hash="114,1,193.04,112.543,U38,A,+,,,"/>
-<approved hash="114,1,193.04,112.543,U38,A,-,,,"/>
-<approved hash="114,1,193.04,112.543,U38,D,+,,,"/>
-<approved hash="114,1,193.04,112.543,U38,D,-,,,"/>
-<approved hash="104,1,363.22,127,U3G$2,VCC,+5V,,,"/>
+<approved hash="114,1,488.95,30.3318,U36,B,IN,,,"/>
+<approved hash="114,1,488.95,30.3318,U36,B,D,,,"/>
+<approved hash="104,1,396.24,127,U3G$2,VCC,+5V,,,"/>
+<approved hash="114,1,226.06,116.184,U4,B,+,,,"/>
+<approved hash="114,1,226.06,116.184,U4,B,-,,,"/>
+<approved hash="114,1,226.06,116.184,U4,C,+,,,"/>
+<approved hash="114,1,226.06,116.184,U4,C,-,,,"/>
+<approved hash="114,1,226.06,116.184,U4,D,+,,,"/>
+<approved hash="114,1,226.06,116.184,U4,D,-,,,"/>
+<approved hash="104,1,226.06,99.06,U4P,GND,GND1,,,"/>
+<approved hash="104,1,226.06,129.54,U4P,VCC,+5V/1,,,"/>
 </errors>
 </schematic>
 </drawing>
