@@ -13405,16 +13405,16 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R18" library="adafruit" deviceset="R-US_" device="R0805" value="150K">
-<attribute name="PARTNO" value="ERJ-6ENF1002V"/>
+<attribute name="PARTNO" value="ERJ-6ENF1503V"/>
 </part>
 <part name="R19" library="adafruit" deviceset="R-US_" device="R0805" value="150K">
-<attribute name="PARTNO" value="ERJ-6ENF1002V"/>
+<attribute name="PARTNO" value="ERJ-6ENF1503V"/>
 </part>
 <part name="R21" library="adafruit" deviceset="R-US_" device="R0805" value="150K">
-<attribute name="PARTNO" value="ERJ-6ENF1002V"/>
+<attribute name="PARTNO" value="ERJ-6ENF1503V"/>
 </part>
 <part name="R22" library="adafruit" deviceset="R-US_" device="R0805" value="150K">
-<attribute name="PARTNO" value="ERJ-6ENF1002V"/>
+<attribute name="PARTNO" value="ERJ-6ENF1503V"/>
 </part>
 <part name="R23" library="adafruit" deviceset="R-US_" device="R0805" value="10K">
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
@@ -13432,7 +13432,7 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="PARTNO" value="MBR0520LT3G"/>
 </part>
 <part name="D35" library="FormE" deviceset="MM3Z5V1B" device="" value="MM3Z5V1B">
-<attribute name="PARTNO" value="MM3Z3V3T1G"/>
+<attribute name="PARTNO" value="MM3Z5V1B"/>
 </part>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
@@ -13510,7 +13510,7 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="PARTNO" value="ERJ-3EKF2002V"/>
 </part>
 <part name="R20" library="adafruit" deviceset="R-US_" device="R0805" value="10.5k">
-<attribute name="PARTNO" value="ERJ-6ENF1051V"/>
+<attribute name="PARTNO" value="ERA-8ARW1052V"/>
 </part>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
@@ -13572,7 +13572,7 @@ Source: AVX .. aphvc.pdf</description>
 </part>
 <part name="TP1" library="testpad" deviceset="PTR1" device="TP20R"/>
 <part name="R32" library="rcl" deviceset="R-US_" device="R0805" value="47">
-<attribute name="PARTNO" value="ERJ-6ENF1000V"/>
+<attribute name="PARTNO" value="ERJ-6ENF4702V"/>
 </part>
 <part name="SUPPLY13" library="supply2" deviceset="GND1" device=""/>
 </parts>
