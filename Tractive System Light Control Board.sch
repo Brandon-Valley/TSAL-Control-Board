@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13338,7 +13338,9 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U1" library="FormE" deviceset="ISO7221" device="">
 <attribute name="PARTNO" value="ISO7221CDR"/>
 </part>
-<part name="J2" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device=""/>
+<part name="J2" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device="">
+<attribute name="PARTNO" value="5025840270"/>
+</part>
 <part name="R50" library="rcl" deviceset="R-US_" device="R0805" value="DNP"/>
 <part name="U36" library="FormE" deviceset="LTC1155" device="">
 <attribute name="PARTNO" value="LTC1155CS8#PBF"/>
@@ -13348,7 +13350,9 @@ Source: AVX .. aphvc.pdf</description>
 </part>
 <part name="TP21" library="testpad" deviceset="PTR1" device="TP20R"/>
 <part name="TP22" library="testpad" deviceset="PTR1" device="TP20R"/>
-<part name="J1" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device=""/>
+<part name="J1" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device="">
+<attribute name="PARTNO" value="5025840270"/>
+</part>
 <part name="C2" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L"/>
 </part>
@@ -13445,7 +13449,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND1" device=""/>
 <part name="H1" library="FormE" deviceset="MOLEX_CLIKMATE-8-VERTICAL-5025841170" device="" value="">
-<attribute name="PARTNO" value="5025841170"/>
+<attribute name="PARTNO" value="5025840870"/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
@@ -13488,18 +13492,22 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="OC_NEWARK" value="04X3227"/>
 <attribute name="PARTNO" value="GRM21BR71E104KA01L"/>
 </part>
-<part name="J3" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device=""/>
-<part name="J4" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device=""/>
+<part name="J3" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device="">
+<attribute name="PARTNO" value="5025840270"/>
+</part>
+<part name="J4" library="FormE" deviceset="MOLEX_CLICKMATE-2-VERTICAL" device="">
+<attribute name="PARTNO" value="5025840270"/>
+</part>
 <part name="U$1" library="FormE" deviceset="AAVID-581X" device="" value="581002B02500G">
 <attribute name="PARTNO" value="581002B02500G"/>
 </part>
 <part name="U$2" library="FormE" deviceset="AAVID-581X" device="" value="581002B02500G">
 <attribute name="PARTNO" value="581002B02500G"/>
 </part>
-<part name="R1" library="FormE" deviceset="RTO020F10001JTE3" device="" value="">
+<part name="R1" library="FormE" deviceset="RTO020F10001JTE3" device="" value="10k">
 <attribute name="PARTNO" value="RTO020F10001JTE3"/>
 </part>
-<part name="R6" library="FormE" deviceset="RTO020F10001JTE3" device="" value="">
+<part name="R6" library="FormE" deviceset="RTO020F10001JTE3" device="" value="10k">
 <attribute name="PARTNO" value="RTO020F10001JTE3"/>
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
@@ -13507,10 +13515,10 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="PARTNO" value="LMC555CM/NOPB"/>
 </part>
 <part name="R8" library="adafruit" deviceset="R-US_" device="R0805" value="20k">
-<attribute name="PARTNO" value="ERA-6AEB204V"/>
+<attribute name="PARTNO" value="ERJ-6ENF2002V"/>
 </part>
 <part name="R20" library="adafruit" deviceset="R-US_" device="R0805" value="10.5k">
-<attribute name="PARTNO" value="ERA-6AEB1052V"/>
+<attribute name="PARTNO" value="ERJ-6ENF1052V"/>
 </part>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
@@ -13572,7 +13580,7 @@ Source: AVX .. aphvc.pdf</description>
 </part>
 <part name="TP1" library="testpad" deviceset="PTR1" device="TP20R"/>
 <part name="R32" library="rcl" deviceset="R-US_" device="R0805" value="47">
-<attribute name="PARTNO" value="ERJ-6ENF4702V"/>
+<attribute name="PARTNO" value="ERA-6AEB470V"/>
 </part>
 <part name="SUPPLY13" library="supply2" deviceset="GND1" device=""/>
 </parts>
@@ -13685,7 +13693,9 @@ Reference</text>
 <instance part="U1" gate="G$1" x="340.36" y="116.84">
 <attribute name="PARTNO" x="340.36" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J2" gate="G$1" x="101.6" y="81.28" rot="R270"/>
+<instance part="J2" gate="G$1" x="101.6" y="81.28" rot="R270">
+<attribute name="PARTNO" x="101.6" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R50" gate="G$1" x="467.36" y="38.1" rot="R90"/>
 <instance part="U36" gate="A" x="492.76" y="27.94"/>
 <instance part="U37" gate="A" x="523.24" y="33.02">
@@ -13694,7 +13704,9 @@ Reference</text>
 <instance part="TP21" gate="G$1" x="508" y="22.86"/>
 <instance part="TP22" gate="G$1" x="474.98" y="25.4"/>
 <instance part="U36" gate="P" x="495.3" y="27.94"/>
-<instance part="J1" gate="G$1" x="101.6" y="177.8" rot="R90"/>
+<instance part="J1" gate="G$1" x="101.6" y="177.8" rot="R90">
+<attribute name="PARTNO" x="101.6" y="177.8" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C2" gate="G$1" x="378.46" y="231.14">
 <attribute name="PARTNO" x="378.46" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
@@ -13838,8 +13850,12 @@ Reference</text>
 <attribute name="MF" x="317.5" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="317.5" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J3" gate="G$1" x="22.86" y="91.44" rot="R270"/>
-<instance part="J4" gate="G$1" x="25.4" y="154.94" rot="R90"/>
+<instance part="J3" gate="G$1" x="22.86" y="91.44" rot="R270">
+<attribute name="PARTNO" x="22.86" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J4" gate="G$1" x="25.4" y="154.94" rot="R90">
+<attribute name="PARTNO" x="25.4" y="154.94" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$1" gate="G$1" x="12.7" y="129.54">
 <attribute name="PARTNO" x="12.7" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
@@ -13912,15 +13928,13 @@ Reference</text>
 <attribute name="PARTNO" x="185.42" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="185.42" y="127"/>
-<instance part="C12" gate="G$1" x="297.18" y="33.02" smashed="yes">
-<attribute name="NAME" x="298.196" y="33.655" size="1.778" layer="95"/>
+<instance part="C12" gate="G$1" x="297.18" y="33.02">
 <attribute name="PARTNO" x="297.18" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" x="297.18" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="297.18" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="297.18" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C13" gate="G$1" x="274.32" y="33.02" smashed="yes">
-<attribute name="NAME" x="275.336" y="33.655" size="1.778" layer="95"/>
+<instance part="C13" gate="G$1" x="274.32" y="33.02">
 <attribute name="PARTNO" x="274.32" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" x="274.32" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="274.32" y="33.02" size="1.778" layer="96" display="off"/>
