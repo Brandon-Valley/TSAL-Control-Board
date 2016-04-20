@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1385,8 +1385,8 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <pad name="P$2" x="5.1435" y="5.9944" drill="2.5"/>
 </package>
 <package name="TO-220-2">
-<pad name="P$1" x="2.54" y="0" drill="0.8"/>
-<pad name="P$2" x="-2.54" y="0" drill="0.8"/>
+<pad name="P$1" x="2.54" y="0" drill="0.95"/>
+<pad name="P$2" x="-2.54" y="0" drill="0.95"/>
 <wire x1="-5.05" y1="2.5" x2="5.05" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-5.05" y1="-2" x2="5.05" y2="-2" width="0.127" layer="21"/>
 <wire x1="5.05" y1="2.5" x2="5.05" y2="1.2" width="0.127" layer="21"/>
@@ -13504,10 +13504,10 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$2" library="FormE" deviceset="AAVID-581X" device="" value="581002B02500G">
 <attribute name="PARTNO" value="581002B02500G"/>
 </part>
-<part name="R1" library="FormE" deviceset="RTO020F10001JTE3" device="" value="10k">
+<part name="R1" library="FormE" deviceset="RTO020F10001JTE3" device="" value="">
 <attribute name="PARTNO" value="RTO020F10001JTE3"/>
 </part>
-<part name="R6" library="FormE" deviceset="RTO020F10001JTE3" device="" value="10k">
+<part name="R6" library="FormE" deviceset="RTO020F10001JTE3" device="" value="">
 <attribute name="PARTNO" value="RTO020F10001JTE3"/>
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>

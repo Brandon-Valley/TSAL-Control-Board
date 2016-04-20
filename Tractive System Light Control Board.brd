@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -881,7 +881,7 @@
 <wire x1="31.115" y1="8.89" x2="36.195" y2="8.89" width="0.254" layer="21"/>
 <wire x1="36.195" y1="8.89" x2="36.195" y2="1.27" width="0.254" layer="21"/>
 <wire x1="36.195" y1="1.27" x2="31.115" y2="1.27" width="0.254" layer="21"/>
-<text x="57.785" y="0.635" size="1.016" layer="21">TSAL Control Board V1.0</text>
+<text x="57.785" y="0.635" size="1.016" layer="21">TSAL Control Board V2.0</text>
 <text x="57.785" y="2.54" size="1.016" layer="21">Formula Electric Racing</text>
 <text x="51.435" y="0.635" size="1.4224" layer="21" rot="R90">HIGH VOLTAGE</text>
 <text x="55.245" y="0.635" size="1.4224" layer="21" rot="R90">GLVS</text>
@@ -4094,8 +4094,8 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <pad name="P$2" x="5.1435" y="5.9944" drill="2.5"/>
 </package>
 <package name="TO-220-2">
-<pad name="P$1" x="2.54" y="0" drill="0.8"/>
-<pad name="P$2" x="-2.54" y="0" drill="0.8"/>
+<pad name="P$1" x="2.54" y="0" drill="0.95"/>
+<pad name="P$2" x="-2.54" y="0" drill="0.95"/>
 <wire x1="-5.05" y1="2.5" x2="5.05" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-5.05" y1="-2" x2="5.05" y2="-2" width="0.127" layer="21"/>
 <wire x1="5.05" y1="2.5" x2="5.05" y2="1.2" width="0.127" layer="21"/>
@@ -4539,11 +4539,11 @@ einem neuen Namen ab.</description>
 <element name="U$2" library="FormE" package="AAVID-581X" value="581002B02500G" x="34.925" y="38.1" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="581002B02500G" x="34.925" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R1" library="FormE" package="TO-220-2" value="10k" x="34.925" y="38.1" smashed="yes" rot="R180">
+<element name="R1" library="FormE" package="TO-220-2" value="" x="34.925" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="35.33" y="40.315" size="1.27" layer="21"/>
 <attribute name="PARTNO" value="RTO020F10001JTE3" x="34.925" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R6" library="FormE" package="TO-220-2" value="10k" x="9.525" y="38.1" smashed="yes" rot="R180">
+<element name="R6" library="FormE" package="TO-220-2" value="" x="9.525" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.66" y="40.315" size="1.27" layer="21"/>
 <attribute name="PARTNO" value="RTO020F10001JTE3" x="9.525" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
