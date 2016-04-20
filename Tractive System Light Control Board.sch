@@ -13512,7 +13512,7 @@ Source: AVX .. aphvc.pdf</description>
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="T3" library="FormE" deviceset="LMC555" device="DGK" value="LMC555">
-<attribute name="PARTNO" value="LMC555CM/NOPB"/>
+<attribute name="PARTNO" value="LMC555CMM/NOPB"/>
 </part>
 <part name="R8" library="adafruit" deviceset="R-US_" device="R0805" value="20k">
 <attribute name="PARTNO" value="ERJ-6ENF2002V"/>

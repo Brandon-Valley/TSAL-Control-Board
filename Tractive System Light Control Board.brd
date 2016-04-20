@@ -4549,7 +4549,7 @@ einem neuen Namen ab.</description>
 </element>
 <element name="T3" library="FormE" package="LMC555" value="LMC555" x="63.5" y="15.24" smashed="yes" rot="R180">
 <attribute name="NAME" x="67.31" y="17.78" size="0.762" layer="25" font="vector" rot="R180"/>
-<attribute name="PARTNO" value="LMC555CM/NOPB" x="63.5" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="LMC555CMM/NOPB" x="63.5" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R8" library="adafruit" package="R0805" value="20k" x="85.09" y="12.7" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="ERJ-6ENF2002V" x="78.74" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
