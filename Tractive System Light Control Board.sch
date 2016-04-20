@@ -1385,8 +1385,8 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <pad name="P$2" x="5.1435" y="5.9944" drill="2.5"/>
 </package>
 <package name="TO-220-2">
-<pad name="P$1" x="2.54" y="0" drill="0.95"/>
-<pad name="P$2" x="-2.54" y="0" drill="0.95"/>
+<pad name="P$1" x="2.54" y="0" drill="1.5"/>
+<pad name="P$2" x="-2.54" y="0" drill="1.5"/>
 <wire x1="-5.05" y1="2.5" x2="5.05" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-5.05" y1="-2" x2="5.05" y2="-2" width="0.127" layer="21"/>
 <wire x1="5.05" y1="2.5" x2="5.05" y2="1.2" width="0.127" layer="21"/>
