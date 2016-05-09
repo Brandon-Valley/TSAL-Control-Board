@@ -13583,6 +13583,10 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="PARTNO" value="ERA-6AEB470V"/>
 </part>
 <part name="SUPPLY13" library="supply2" deviceset="GND1" device=""/>
+<part name="U6" library="FormE" deviceset="CSD17506Q5A" device=""/>
+<part name="P+3" library="supply1" deviceset="VCC" device=""/>
+<part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="P+11" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13688,6 +13692,7 @@ Reference</text>
 <wire x1="198.12" y1="210.82" x2="198.12" y2="121.92" width="0.1524" layer="95"/>
 <wire x1="198.12" y1="121.92" x2="144.78" y2="121.92" width="0.1524" layer="95"/>
 <wire x1="144.78" y1="121.92" x2="144.78" y2="210.82" width="0.1524" layer="95"/>
+<text x="490.22" y="-17.78" size="6.4516" layer="95">Discharge Relay Driver</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="340.36" y="116.84">
@@ -13808,7 +13813,7 @@ Reference</text>
 <instance part="GND8" gate="1" x="604.52" y="7.62"/>
 <instance part="GND13" gate="1" x="495.3" y="5.08"/>
 <instance part="P+1" gate="1" x="467.36" y="53.34"/>
-<instance part="P+15" gate="VCC" x="576.58" y="10.16" rot="R270"/>
+<instance part="P+15" gate="VCC" x="576.58" y="10.16" rot="MR90"/>
 <instance part="SUPPLY3" gate="G$1" x="228.6" y="144.78"/>
 <instance part="SUPPLY4" gate="G$1" x="228.6" y="91.44"/>
 <instance part="R7" gate="G$1" x="248.92" y="132.08" rot="R270">
@@ -13945,6 +13950,11 @@ Reference</text>
 <attribute name="PARTNO" x="284.48" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY13" gate="G$1" x="111.76" y="88.9"/>
+<instance part="U6" gate="A" x="571.5" y="-38.1"/>
+<instance part="U36" gate="B" x="538.48" y="-43.18"/>
+<instance part="P+3" gate="VCC" x="571.5" y="-22.86"/>
+<instance part="GND1" gate="1" x="571.5" y="-66.04"/>
+<instance part="P+11" gate="VCC" x="525.78" y="-27.94"/>
 </instances>
 <busses>
 </busses>
@@ -14139,6 +14149,17 @@ Reference</text>
 <wire x1="523.24" y1="43.18" x2="523.24" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="VCC" pin="VCC"/>
 </segment>
+<segment>
+<pinref part="U6" gate="A" pin="D"/>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
+<wire x1="571.5" y1="-27.94" x2="571.5" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U36" gate="B" pin="D"/>
+<pinref part="P+11" gate="VCC" pin="VCC"/>
+<wire x1="528.32" y1="-45.72" x2="525.78" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="525.78" y1="-45.72" x2="525.78" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -14207,18 +14228,14 @@ Reference</text>
 <wire x1="495.3" y1="7.62" x2="495.3" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="H1" gate="G$1" pin="5"/>
 <pinref part="H1" gate="G$1" pin="8"/>
 <wire x1="568.96" y1="27.94" x2="604.52" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="604.52" y1="27.94" x2="604.52" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="604.52" y1="20.32" x2="568.96" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="H1" gate="G$1" pin="2"/>
-<wire x1="568.96" y1="12.7" x2="604.52" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="604.52" y1="12.7" x2="604.52" y2="20.32" width="0.1524" layer="91"/>
-<junction x="604.52" y="20.32"/>
-<wire x1="604.52" y1="12.7" x2="604.52" y2="10.16" width="0.1524" layer="91"/>
-<junction x="604.52" y="12.7"/>
+<wire x1="604.52" y1="27.94" x2="604.52" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="604.52" y1="10.16" x2="604.52" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="H1" gate="G$1" pin="6"/>
+<wire x1="568.96" y1="22.86" x2="604.52" y2="22.86" width="0.1524" layer="91"/>
+<junction x="604.52" y="22.86"/>
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
@@ -14254,6 +14271,11 @@ Reference</text>
 <pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="571.5" y1="-63.5" x2="571.5" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="571.5" y1="-55.88" x2="581.66" y2="-55.88" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="TSAL_CONTROL" class="0">
 <segment>
@@ -14274,7 +14296,7 @@ Reference</text>
 <wire x1="574.04" y1="15.24" x2="574.04" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="574.04" y1="17.78" x2="576.58" y2="17.78" width="0.1524" layer="91"/>
 <junction x="574.04" y="17.78"/>
-<label x="576.58" y="17.78" size="1.778" layer="95" xref="yes"/>
+<label x="576.58" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -14554,7 +14576,7 @@ Reference</text>
 <segment>
 <pinref part="H1" gate="G$1" pin="7"/>
 <wire x1="568.96" y1="25.4" x2="576.58" y2="25.4" width="0.1524" layer="91"/>
-<label x="576.58" y="25.4" size="1.778" layer="95" xref="yes"/>
+<label x="576.58" y="25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -14652,26 +14674,41 @@ Reference</text>
 <junction x="172.72" y="160.02"/>
 </segment>
 </net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U6" gate="A" pin="G"/>
+<pinref part="U36" gate="B" pin="G"/>
+<wire x1="558.8" y1="-43.18" x2="551.18" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DISCHARGE_RELAY_OUT" class="0">
+<segment>
+<pinref part="U6" gate="A" pin="S"/>
+<wire x1="571.5" y1="-50.8" x2="571.5" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="571.5" y1="-53.34" x2="581.66" y2="-53.34" width="0.1524" layer="91"/>
+<label x="581.66" y="-53.34" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="H1" gate="G$1" pin="5"/>
+<wire x1="568.96" y1="20.32" x2="576.58" y2="20.32" width="0.1524" layer="91"/>
+<label x="576.58" y="20.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CONTACTOR_OFF" class="0">
+<segment>
+<pinref part="U36" gate="B" pin="IN"/>
+<wire x1="528.32" y1="-40.64" x2="518.16" y2="-40.64" width="0.1524" layer="91"/>
+<label x="518.16" y="-40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="H1" gate="G$1" pin="2"/>
+<wire x1="568.96" y1="12.7" x2="576.58" y2="12.7" width="0.1524" layer="91"/>
+<label x="576.58" y="12.7" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="101,1,99.06,93.98,J2,2,,,,"/>
-<approved hash="101,1,96.52,175.26,J1,1,,,,"/>
-<approved hash="101,1,25.4,104.14,J3,1,,,,"/>
-<approved hash="101,1,25.4,152.4,J4,2,,,,"/>
-<approved hash="114,1,488.95,30.3318,U36,B,IN,,,"/>
-<approved hash="114,1,488.95,30.3318,U36,B,D,,,"/>
-<approved hash="104,1,396.24,127,U3G$2,VCC,+5V,,,"/>
-<approved hash="114,1,226.06,116.184,U4,B,+,,,"/>
-<approved hash="114,1,226.06,116.184,U4,B,-,,,"/>
-<approved hash="114,1,226.06,116.184,U4,C,+,,,"/>
-<approved hash="114,1,226.06,116.184,U4,C,-,,,"/>
-<approved hash="114,1,226.06,116.184,U4,D,+,,,"/>
-<approved hash="114,1,226.06,116.184,U4,D,-,,,"/>
-<approved hash="104,1,226.06,99.06,U4P,GND,GND1,,,"/>
-<approved hash="104,1,226.06,129.54,U4P,VCC,+5V/1,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
